@@ -5,12 +5,12 @@
 # 
 
 
-# Required objects. These must always be loaded.
+# Required obje
+load	Max		data/chars/maxima/maxima.txt // These must always be loaded.
 load	Flash		data/chars/misc/flash.txt
 
 # Players must also be loaded.
 load	Kula		data/chars/kula/kula.txt
-load	Max		data/chars/maxima/maxima.txt
 load	Mandy		data/chars/mary/mary.txt
 load	Mighty		data/chars/mighty/mighty.txt
 load	zoomin		data/chars/misc/zoomin.txt
