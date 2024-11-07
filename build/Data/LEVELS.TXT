@@ -8,25 +8,29 @@
 #	scene	[filename]	Show a cut-scene
 #
 
+set alex_demo
+scene   data/scenes/howto.txt
+file   data/levels/new-stage-1.txt  
+next 
+scene  data/scenes/ending.txt  
 
+ set The_beggining
 
-set	Grouping
-
-file	data/levels/example1.txt
+file	data/levels/new-stage-1.txt
 next
 file	data/levels/holes.txt
 next
 scene	data/scenes/ending.txt
 
 
-set	water_(3_levels)
+set the_strecher_(3_levels)
 file	data/levels/water.txt
 file	data/levels/water2.txt
 file	data/levels/water3.txt
 
-set	modes_(2_levels)
+set the_easy_way_(2_levels)
 file	data/levels/neon.txt
 file	data/levels/screen.txt
 
-set	mirror_(1_level)
+set new_beggingns_(1_level)
 file	data/levels/mirror.txt
